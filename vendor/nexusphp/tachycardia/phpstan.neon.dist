@@ -1,0 +1,21 @@
+includes:
+  - phpstan-baseline.php
+  - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+  tmpDir: build/phpstan
+  level: 9
+  paths:
+    - src
+    - tests
+  bootstrapFiles:
+    - vendor/autoload.php
+  stubFiles:
+    - stubs/DocBlock.stub
+  checkTooWideReturnTypesInProtectedAndPublicMethods: true
+  checkUninitializedProperties: true
+  checkImplicitMixed: true
+  checkBenevolentUnionTypes: true
+  checkMissingCallableSignature: true
+  reportAlwaysTrueInLastCondition: true
+  treatPhpDocTypesAsCertain: false

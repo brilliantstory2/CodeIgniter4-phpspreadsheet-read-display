@@ -1,0 +1,920 @@
+CRITICAL - 2024-11-20 18:00:18 --> Error: Class "CI_Controller" not found
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\FileUploadController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:00:38 --> Error: Class "CI_Controller" not found
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\FileUploadController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:01:53 --> Error: Class "App\Controllers\CI_Controller" not found
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\FileUploadController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:02:57 --> Error: Cannot call constructor
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:03:49 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\FileUploadController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 18:04:34 --> TypeError: App\Controllers\Home::upload_file(): Return value must be of type string, none returned
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\Home.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:05:12 --> TypeError: App\Controllers\Home::upload_file(): Return value must be of type string, none returned
+[Method: POST, Route: upload_file]
+in APPPATH\Controllers\Home.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->upload_file()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:33:33 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:33:58 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:34:28 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:36:29 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:37:49 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:38:18 --> Error: Class "PhpOffice\PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:39:26 --> Error: Class "PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:45:03 --> ErrorException: Undefined property: App\Controllers\FileUploadController::$load
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 34.
+ 1 APPPATH\Controllers\FileUploadController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\FileUploadController::$load', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 18:52:58 --> ErrorException: Undefined property: App\Controllers\FileUploadController::$load
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 APPPATH\Controllers\FileUploadController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\FileUploadController::$load', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:00:35 --> Error: Class "PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:01:01 --> Error: Class "PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:01:28 --> Error: Class "App\Controllers\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:02:05 --> Error: Class "PhpOffice\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:05:48 --> Error: Class "PhpOffice\PhpSpreadsheet\Shared\File" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet\IOFactory.php on line 133.
+ 1 APPPATH\Libraries\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\OGC\\CodeIgniter4-develop\\public\\uploads/1732129548_0b2ce596467143aff2de.xlsx', null)
+ 2 APPPATH\Controllers\FileUploadController.php(32): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\OGC\\CodeIgniter4-develop\\public\\uploads/1732129548_0b2ce596467143aff2de.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:06:32 --> Error: Class "PhpSpreadsheet\IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:07:45 --> ErrorException: require_once(D:\OGC\CodeIgniter4-develop\app\Libraries/PhpSpreadsheet/IOFactory.php): Failed to open stream: No such file or directory
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 31.
+ 1 APPPATH\Controllers\FileUploadController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\OGC\\CodeIgniter4-develop\\app\\Libraries/PhpSpreadsheet/IOFactory.php): Failed to open stream: No such file or directory', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 31)
+ 2 APPPATH\Controllers\FileUploadController.php(31): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:13:59 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Classes\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:14:45 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Classes\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:16:42 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Classes\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:24:37 --> Error: Class "App\Controllers\PHPExcel_IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:28:14 --> Error: Class "App\Controllers\PHPExcel_IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:28:41 --> Error: Class "App\Controllers\PHPExcel_IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:28:50 --> Error: Class "App\Controllers\PHPExcel_IOFactory" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:31:15 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:36:59 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:37:08 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:38:15 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:41:00 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:41:14 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:41:20 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:42:03 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:42:16 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:42:24 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:43:04 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:43:12 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:43:24 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:43:42 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:45:37 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:49:04 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 19:51:12 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 46.
+ 1 APPPATH\Controllers\FileUploadController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:53:50 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:53:56 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:54:01 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:54:06 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:54:11 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:54:53 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:00:12 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:02:26 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:02:35 --> ErrorException: Undefined variable $myLibrary
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 APPPATH\Controllers\FileUploadController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myLibrary', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:03:20 --> ErrorException: Array and string offset access syntax with curly braces is no longer supported
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 20:04:37 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 20:04:37 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PHPExcel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-20 20:12:00 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:12:31 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:14:01 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:15:17 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:16:47 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:31:13 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FileUploadController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FileUploadController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\FileUploadController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:37:33 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:39:29 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:40:33 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:40:52 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:40:57 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:41:16 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:42:33 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:42:52 --> Error: Class "App\Controllers\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\FileUploadController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:43:37 --> Error: Class "App\Libraries\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:44:02 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:44:12 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:44:41 --> Error: Class "App\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:46:02 --> Error: Class "PhpOffice\PhpSpreadsheet\Shared\Date" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php on line 36.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:46:03 --> Error: Class "PhpOffice\PhpSpreadsheet\Shared\Date" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php on line 36.
+ 1 APPPATH\Controllers\FileUploadController.php(45): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:47:12 --> Error: Class "PhpOffice\PhpSpreadsheet\Shared\Date" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php on line 36.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:49:33 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:52:19 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:53:09 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:53:44 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OGC\\CodeIgniter4-develop\\app\\Libraries\\PhpSpreadsheet.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\PhpSpreadsheet')
+ 3 APPPATH\Controllers\FileUploadController.php(43): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\PhpSpreadsheet')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:54:37 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:55:37 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:55:38 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:55:38 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:55:38 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:59:27 --> Error: Class "App\Libraries\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:00:11 --> Error: Class "App\Libraries\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:00:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:01:16 --> Error: Class "App\Controllers\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:01:36 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpSpreadsheet.php on line 18.
+ 1 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:04:22 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:04:22 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:04:22 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:04:22 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:04:40 --> ReflectionException: Class "Psr\SimpleCache\CacheInterface" does not exist
+[Method: POST, Route: upload-file]
+in APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php on line 145.
+ 1 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(145): ReflectionClass->__construct('Psr\\SimpleCache\\CacheInterface')
+ 2 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Settings.php(137): PhpOffice\PhpSpreadsheet\Settings::useSimpleCacheVersion3()
+ 3 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Collection\CellsFactory.php(18): PhpOffice\PhpSpreadsheet\Settings::getCache()
+ 4 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Worksheet\Worksheet.php(329): PhpOffice\PhpSpreadsheet\Collection\CellsFactory::getInstance(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 5 APPPATH\Libraries\PhpOffice\PhpSpreadsheet\Spreadsheet.php(415): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->__construct(Object(PhpOffice\PhpSpreadsheet\Spreadsheet))
+ 6 APPPATH\Libraries\PhpSpreadsheet.php(18): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 7 APPPATH\Controllers\FileUploadController.php(44): App\Libraries\PhpSpreadsheet->createSpreadsheet()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:06:01 --> Error: Class "App\Controllers\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:09:26 --> Error: Class "sss\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:13:40 --> Error: Class "sss\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 22:13:53 --> Error: Class "sss\PhpSpreadsheet" not found
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

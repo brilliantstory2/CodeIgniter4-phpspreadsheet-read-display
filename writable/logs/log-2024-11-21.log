@@ -1,0 +1,58 @@
+CRITICAL - 2024-11-21 00:19:04 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\OGC\CodeIgniter4-develop\public\1732148344_fd71d68e8b27dd2fb52b.xlsx" does not exist.
+[Method: POST, Route: upload-file]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\OGC\\CodeIgniter4-develop\\public\\1732148344_fd71d68e8b27dd2fb52b.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\OGC\\CodeIgniter4-develop\\public\\1732148344_fd71d68e8b27dd2fb52b.xlsx', null)
+ 3 APPPATH\Controllers\FileUploadController.php(46): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\OGC\\CodeIgniter4-develop\\public\\1732148344_fd71d68e8b27dd2fb52b.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:29:51 --> Error: Cannot use object of type PhpOffice\PhpSpreadsheet\Worksheet\RowIterator as array
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:30:50 --> Error: Cannot use object of type PhpOffice\PhpSpreadsheet\Worksheet\RowIterator as array
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:31:27 --> Error: Cannot use object of type PhpOffice\PhpSpreadsheet\Worksheet\RowIterator as array
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:32:27 --> Error: Cannot use object of type PhpOffice\PhpSpreadsheet\Worksheet\RowIterator as array
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:37:07 --> ErrorException: Undefined variable $column
+[Method: POST, Route: upload-file]
+in APPPATH\Controllers\FileUploadController.php on line 53.
+ 1 APPPATH\Controllers\FileUploadController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $column', 'D:\\OGC\\CodeIgniter4-develop\\app\\Controllers\\FileUploadController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FileUploadController->uploadFile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

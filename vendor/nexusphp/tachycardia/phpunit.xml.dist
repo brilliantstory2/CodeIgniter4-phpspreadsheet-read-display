@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         executionOrder="random"
+         beStrictAboutOutputDuringTests="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         cacheDirectory="build/phpunit/cache"
+         columns="max"
+         requireCoverageMetadata="true"
+>
+  <testsuites>
+    <testsuite name="unit">
+      <directory suffix="Test.php">tests/unit</directory>
+    </testsuite>
+    <testsuite name="end-to-end">
+      <directory suffix=".phpt">tests/end-to-end</directory>
+    </testsuite>
+  </testsuites>
+
+  <source>
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+    <exclude>
+      <directory suffix=".php">src/Attribute</directory>
+    </exclude>
+  </source>
+
+  <coverage ignoreDeprecatedCodeUnits="true">
+    <report>
+      <clover outputFile="build/logs/clover.xml"/>
+      <html outputDirectory="build/logs/html"/>
+    </report>
+  </coverage>
+
+  <extensions>
+    <bootstrap class="Nexus\PHPUnit\Tachycardia\TachycardiaExtension" />
+  </extensions>
+</phpunit>
